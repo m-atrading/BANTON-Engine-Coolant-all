@@ -167,7 +167,7 @@ body {
 
 
 
-
+/*product section*/
 
 .product-section {
   background-color: #090e1a;
@@ -175,6 +175,19 @@ body {
   color: #f5c518;
   border-top: 2px solid rgba(255, 215, 0, 0.15);
 }
+
+.section-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #f5c518;
+  text-align: center;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-shadow: 0 0 12px rgba(245, 197, 24, 0.6);
+  font-family: 'Cinzel', serif;
+}
+
 
 .product-grid {
   max-width: 1200px;
@@ -314,6 +327,7 @@ body {
   }
 }
 
+/*review-section*/
 
 .review-section {
   background: #090e1a; /* Navy blue solid background for better contrast */
@@ -385,6 +399,7 @@ body {
   }
 }
 
+/*certificate-section*/
 .certificate-section {
   background: linear-gradient(135deg, #090e1a 0%, #14213d 100%);
   padding: 70px 20px;
