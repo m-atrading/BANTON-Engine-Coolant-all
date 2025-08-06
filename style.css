@@ -133,6 +133,8 @@ body {
   }
 }
 
+/* hero-section */
+
 .hero-section {
   background: linear-gradient(-45deg, #f5c518, #14213d, #090e1a, #ffe169);
   background-size: 400% 400%;
@@ -164,6 +166,32 @@ body {
   margin-right: auto;
   font-weight: 500;
 }
+
+.hero-button {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #f5c518;
+  color: #14213d;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(245, 197, 24, 0.7);
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  font-family: 'Cinzel', serif;
+}
+
+.hero-button:hover {
+  background-color: #ffe169;
+  color: #090e1a;
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(255, 225, 105, 0.9);
+  cursor: pointer;
+}
+
+
+
+/* Coolant info */
 
 .coolant-info-premium {
   background: linear-gradient(135deg, #101622, #090e1a);
