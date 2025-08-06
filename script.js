@@ -16,3 +16,21 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+document.querySelector('.hero-button').addEventListener('click', function(e) {
+  e.preventDefault();
+  const section = document.querySelector('.product-gallery');
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+});
+
+
+
+document.querySelector('.hero-button').addEventListener('click', function(e) {
+  e.preventDefault();
+  document.querySelector(this.getAttribute('href')).scrollIntoView({
+    behavior: 'smooth'
+  });
+});
+
